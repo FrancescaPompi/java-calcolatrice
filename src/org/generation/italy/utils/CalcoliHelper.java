@@ -44,34 +44,58 @@ public class CalcoliHelper {
 	
 	// metodi per il valore assoluto
 	public static int abs(int a) {
-		int valoreAssoluto = Math.abs(a);
-		return valoreAssoluto;
+		if(a > 0) {
+			return a;
+		} else {
+			return -a;
+		}
 	}
 	
 	public static double asb(double a) {
-		double valoreAssoluto = Math.abs(a);
-		return valoreAssoluto;
+		if(a > 0) {
+			return a;
+		} else {
+			return -a;
+		}
 	}
 	
 	// metodi per il minimo
 	public static int minimo(int a, int b) {
-		int minimo = Math.min(a, b);
-		return minimo;
+		if(a > b) {
+			return b;
+		} else {
+			return a;
+		}
 	}
 	
 	public static double minimo(double a, double b) {
-		double minimo = Math.min(a, b);
-		return minimo;
+		if(a > b) {
+			return b;
+		} else {
+			return a;
+		}
 	}
 	
 	// metodi per il massimo
 	public static int massimo(int a, int b) {
-		int massimo = Math.max(a, b);
-		return massimo;
+		if(a > b) {
+			return a;
+		} else {
+			return b;
+		}
 	}
 	
 	public static double massimo(double a, double b) {
-		double massimo = Math.max(a, b);
-		return massimo;
+		if(a > b) {
+			return a;
+		} else {
+			return b;
+		}
 	}
+	
+	
+	// bonus metodo elevamento a potenza
+//	public static int potenza(int a, int b) {
+//		
+//	}
 }
