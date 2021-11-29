@@ -7,6 +7,8 @@ public class CalcoliHelper {
 		
 	}
 	
+	// Applico l'overload dei metodi per avere nella stessa classe metodi con lo stesso nome, ma tipi di parametro diversi. Ovvero si tratta di polimorfismo.
+	
 	// metodi per la somma
 	public static int somma(int a, int b) {
 		int somma = a + b;
